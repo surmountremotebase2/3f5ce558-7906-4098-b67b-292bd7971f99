@@ -1,1 +1,1 @@
-{"allocations": {"NVDA": 8.0, "AVGO": 7.0, "AMD": 6.0, "TQQQ": 5.0, "SOXL": 4.5, "BTC-USD": 12.0, "ETH-USD": 8.0, "SOL-USD": 6.0, "GILD": 3.0, "MRNA": 3.0, "NUGT": 4.0, "JNUG": 3.5}, "frequency": 3, "name": "", "period": "days"}
+{"allocations": {"NVDA": 8.0, "AVGO": 7.0, "AMD": 6.0, "TQQQ": 5.0, "SOXL": 4.5, "BTC-USD": 12.0, "ETH-USD": 8.0, "SOL-USD": 6.0, "GILD": 3.0, "MRNA": 3.0, "NUGT": 4.0, "JNUG": 3.5}, "frequency": 30, "name": "Diversified Growth Strategy 2", "period": "days"}
