@@ -5,10 +5,10 @@ from surmount.data import InstitutionalOwnership, InsiderTrading, SocialSentimen
 from surmount.technical_indicators import STDEV, SMA, MACD
 
 class TradingStrategy(Strategy):
-    def __init__(self):
+        def __init__(self):
             # §2-5 UNIVERSES: Pre-selecting compliant assets satisfying fundamental velocity & liquidity
-                    self.tech_tickers = ["NVDA", "AVGO", "PLTR", "TQQQ", "SOXL"] # Tech Equities & Leveraged Amplification
-                            self.biotech_tickers = ["XBI", "CRSP", "VRTX", "NVO"]        # Biotech & Pharma
+                self.tech_tickers = ["NVDA", "AVGO", "PLTR", "TQQQ", "SOXL"] # Tech Equities & Leveraged Amplification
+                self.biotech_tickers = ["XBI", "CRSP", "VRTX", "NVO"]        # Biotech & Pharma
                                     self.crypto_tickers = ["BTC", "ETH", "SOL", "SUI"]           # Crypto Anchors & Altcoin Layer
                                             self.metals_tickers = ["GLD", "SLV", "FNV", "NUGT"]          # Core Metals, Miners, Leveraged
                                                     
