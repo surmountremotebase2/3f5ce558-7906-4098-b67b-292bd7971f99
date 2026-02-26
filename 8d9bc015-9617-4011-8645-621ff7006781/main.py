@@ -9,8 +9,8 @@ class TradingStrategy(Strategy):
             # §2-5 UNIVERSES: Pre-selecting compliant assets satisfying fundamental velocity & liquidity
                     self.tech_tickers = ["NVDA", "AVGO", "PLTR", "TQQQ", "SOXL"] # Tech Equities & Leveraged Amplification
                     self.biotech_tickers = ["XBI", "CRSP", "VRTX", "NVO"]        # Biotech & Pharma
-                                    self.crypto_tickers = ["BTC", "ETH", "SOL", "SUI"]           # Crypto Anchors & Altcoin Layer
-                                            self.metals_tickers = ["GLD", "SLV", "FNV", "NUGT"]          # Core Metals, Miners, Leveraged
+                    self.crypto_tickers = ["BTC", "ETH", "SOL", "SUI"]           # Crypto Anchors & Altcoin Layer
+                    self.metals_tickers = ["GLD", "SLV", "FNV", "NUGT"]          # Core Metals, Miners, Leveraged
                                                     
                                                             # §6 MACRO REGIME TICKERS: Proxies for dynamic scaling (VIX, DXY via UUP, SPY for baseline)
                                                                     self.macro_tickers = ["VIXY", "UUP", "SPY"] 
